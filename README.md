@@ -32,9 +32,7 @@ Ruby on Rails | CakePHP | jQuery | .NET Framework
 
 MySQL | PostgreSQL | Oracle | SQL Server | Redis | Memcached
 
-### クラウド
-
-#### AWS
+### AWS
 
 VPC | S3 | Cloud Front | API Gateway | Lambda | ELB | EC2 | ECS | Fargate | Route53 | IAM | Elasticsearch Service | RDS(MySQL|PostgreSQL) | Aurora | DynamoDB | ElastiCache(Redis) | Kinesis firehose | SNS | SES | Cloud Watch | CloudTrail | GuardDuby | KMS | CodePipeline | CodeBuild | CodeDeploy | ECR | WAF
 
