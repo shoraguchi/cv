@@ -68,7 +68,26 @@ Terraform | Docker | Jenkins | Fluentd | Capistrano | Chef | nginx | unicorn | A
 
 ## 主な業務経歴
 
-### 医療分野におけるPHR(Personal Health Record)サービスのアーキテクチャ設計/インフラ構築/DevOps基盤構築【Go/ECS/GitOps/CodePipeline/Terraform/AWS】(2020年〜)
+### スマートシティ開発のID基盤の構築とインフラ環境の設計・構築を担当【Go/EKS/GitOps/Github Actions/Terraform/AWS/Keycloak/Bazel/Istio/Flux】(2021年9月～現在)
+
+【プロジェクト概要】スマートシティ開発のID基盤の構築とインフラ環境の設計・構築を担当
+
+【担当業務】
+- Terraformによるインフラのコード化(VPC/EKS/ECR/EC2等)
+- EKSを使用したマイクロサービス基盤の構築
+- Envoyを使用したサイドカーパターンによるマイクロサービスアーキテクチャの構築
+- Istioを使用したサービスメッシュ上でのマイクロサービスのデプロイと管理
+- FluxのLocal(minikube)環境とEKS環境での構築
+- KubernetesのManifestファイルの作成と管理(ツールはkustomizeやhelmやoperatorを使用)
+- Keycloak operatorを使い、keycloak、Keycloak Realm、Keycloak Client、Keycloak Userリソースを作成。
+- WildFly KeycloakからQuarkus KeycloakへのUpdateに対する知見。
+- マルチクラウド対応をするため、マネージドサービスのDBではなく、Operatorを使用した経験あり。(postgresql、redis)
+- ビルドの再現性とリモートキャッシュによるビルド時間短縮の観点から、Bazelでdocker imageを作成、レジストリにPushした経験あり。
+
+使用言語等：EKS,Kubernetes,istio,Flux,Keycloak,Keycloak Operator,PostgreSQL Operator(crunchydata,Zalando)、Redis Operator、Bazel,minikube,k9s
+
+
+### 医療分野におけるPHR(Personal Health Record)サービスのアーキテクチャ設計/インフラ構築/DevOps基盤構築【Go/ECS/GitOps/CodePipeline/Terraform/AWS】(2020年〜2021年8月)
 
 【プロジェクト概要】PHRサービスの新規開発チームにおいて、インフラの構築/DevOps基盤構築、技術検証用アプリケーションの開発作業等を担当
 
